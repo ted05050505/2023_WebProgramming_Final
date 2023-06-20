@@ -95,7 +95,6 @@ form {
   line-height: 47px;
   text-transform: uppercase;
   overflow: hidden;
-  /* margin: 153px auto 0; */
   -webkit-padding-start: 0px !important;
   text-align: center;
   font-family: 'Leon Sans', 'KoPubDotum', sans-serif;
@@ -119,6 +118,34 @@ form {
 
 .navbar__toogleBtn {
   display: none;
+}
+
+#main_theme_div02 {
+  position: relative;
+  /* opacity: .5; */
+}
+.mainimg {
+  opacity: .5;
+}
+.mainimg_text {
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#footer {
+  text-align: center;
+}
+
+.footer-inner {
+  opacity: .5;
+  margin: 0 auto;
+  padding: 50px;
+  width: 500px;
+  font-size: small;
+  color: rgba(255, 255, 255, 50);
 }
 
 
