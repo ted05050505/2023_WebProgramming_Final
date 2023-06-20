@@ -128,11 +128,13 @@ form {
   opacity: .5;
 }
 .mainimg_text {
-  opacity: 1;
+  opacity: .9;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-family: Helvetica;
+  font-weight:600;
 }
 
 #footer {
