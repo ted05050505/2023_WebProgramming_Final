@@ -653,6 +653,15 @@ embed, iframe, img, object, video {
     text-align: left;
   }
 
+
+#main_theme_div02 {
+  display: none;
+}
+
+#footer {
+  display:none;
+}
+
   .about_name {
     font-size: 15px;
     font-weight: 700;
@@ -797,13 +806,6 @@ embed, iframe, img, object, video {
   .navbar__toggleBtn.active {
     display: none;
   }
-
-  /* .navbar__toggleBtn__cancel {
-    display: none;
-    position: absolute;
-    top: 30px;
-    right: 32px;
-  } */
 
   #logo {
     left: 15px;
