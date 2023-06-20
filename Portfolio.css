@@ -16,11 +16,8 @@
   url(fonts/GrtskMega-Bold.woff) format('woff'),
   url(fonts/GrtskMega-Bold.woff2) format('woff2'),
   url(fonts/GrtskMega-Bold.ttf) format('truetype');
-  /* url('https://github.com/ted050505/Portfolio.git/fonts/GrtskMega-Bold.ttf') format('truetype'),
-  url('https://github.com/ted050505/Portfolio.git/fonts/GrtskMega-Bold.eot') format('eot'),
-  url('https://github.com/ted050505/Portfolio.git/fonts/GrtskMega-Bold.woff') format('woff'),
-  url('https://github.com/ted050505/Portfolio.git/fonts/GrtskMega-Bold.woff2') format('woff2'), */
 }
+
 @font-face {
   font-family: Grtsk Mega;
   font-weight: 500;
@@ -30,11 +27,8 @@
   url(fonts/GrtskMega-Medium.woff) format('woff'),
   url(fonts/GrtskMega-Medium.woff2) format('woff2'),
   url(fonts/GrtskMega-Medium.ttf) format('truetype');
-  /* url('https://github.com/ted050505/Portfolio.git/fonts/GrtskMega-Medium.ttf') format('truetype'),
-  url('https://github.com/ted050505/Portfolio.git/fonts/GrtskMega-Medium.eot') format('eot'),
-  url('https://github.com/ted050505/Portfolio.git/fonts/GrtskMega-Medium.woff') format('woff'),
-  url('https://github.com/ted050505/Portfolio.git/fonts/GrtskMega-Medium.woff2') format('woff2'), */
 }
+
 @font-face {
   font-family: Grtsk Mega;
   font-weight: normal;
@@ -191,10 +185,11 @@ a {
 
   body {
     color:rgb(255, 255, 255);
+    /* color:#666; */
     font-family: NanumBarunGothic, sans-serif;
     font-weight: 300;
-    /* background-color: #0c0c0c; */
-    background-color: #2b2b2b;
+    background-color: #0c0c0c;
+    /* background-color: #fefefe; */
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
 }
@@ -623,8 +618,7 @@ embed, iframe, img, object, video {
     float: right;
     width: 50%;
     height: 50px;
-    left: -14%;
-    top: 5%;
+    /* left: 195px; */
     padding: 15px 0;
     overflow: hidden;
     text-align: left;
@@ -636,7 +630,7 @@ embed, iframe, img, object, video {
     letter-spacing: 1px;
     width: 150px;
     height: 40px;
-    top: 10%;
+    top: auto;
     left: auto;
     text-align: left;
   }
@@ -648,7 +642,7 @@ embed, iframe, img, object, video {
     /* top: 167px; */
     /* left: 140px; */
     width: 300px;
-    top: 60%;
+    top: auto;
     left: auto;
   }
 
@@ -668,6 +662,7 @@ embed, iframe, img, object, video {
     text-align: center;
     /* font-size: 13px; */
     width: 65%;
+    height: 60%;
     position: static;
     top: auto;
     left: auto;
