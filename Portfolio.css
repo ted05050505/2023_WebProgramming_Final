@@ -127,6 +127,7 @@ form {
   opacity: .5;
 }
 .mainimg_text {
+  width: 1000px;
   opacity: .9;
   position: absolute;
   top: 50%;
